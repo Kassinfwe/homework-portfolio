@@ -1,0 +1,84 @@
+body {
+	background: #A5F2F3;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*Why won't the border bottom appear? */
+header {
+	border-bottom: 10px;
+	border-bottom-color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	height: 200px;
+}
+
+.name {
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans Condensed', serif;
+	text-align: center;	
+	font-size: 40px;
+	font-weight: 200;
+	margin: auto 0;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	padding-bottom: 0px;
+}
+
+.page-links {
+	color: white;
+	margin: auto 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 150;
+	height: 200px;
+}
+
+#about {
+	margin-right: 10px;
+	border-right: 2px;
+	padding-right: 2px;
+}
+
+#portfolio {
+	padding-left: 2px;
+}
+
+/* Wouldn't work if this was just in .nav?? */
+a {
+	color: white;
+	vertical-align: middle;
+	font-size: 30px;
+	font-weight: 150;
+}
+
+.about-container {
+	clear: right;
+	clear: left;
+	height: 200px;
+	width: auto 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+#headshot {
+	margin-top: 30px;
+}
+
+/* If max-width is set to abot 700px, the container 
+is no longer centered on the page, but left-aligned? */
+.about-information {
+	clear: left;
+	font-size: 20px;
+	text-align: center;
+	width: auto 600;
+}
+
+/* Beginning of Portfolio.html page CSS*/
+#experience {
+	text-align: center;
+}
+
+.body-work {
+	text-align: center;
+}
