@@ -25,6 +25,8 @@ header {
 	padding-bottom: 0px;
 }
 
+/* When I make the borwser as small width-wise 
+as possible, these disappear! Thoughts?*/
 .page-links {
 	color: white;
 	margin: auto 0;
