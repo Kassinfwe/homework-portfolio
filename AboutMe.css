@@ -71,14 +71,29 @@ is no longer centered on the page, but left-aligned? */
 	clear: left;
 	font-size: 20px;
 	text-align: center;
-	width: auto 600;
+	margin: auto;
+	max-width: 600px;
 }
 
 /* Beginning of Portfolio.html page CSS*/
 #experience {
 	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
 }
 
 .body-work {
 	text-align: center;
+}
+
+/* Why does the margin continue to say 18.72 for height
+size when I have specified it to be smaller here? */
+.title {
+	margin: 5 0 5 0;
+	padding: 0 0 5 0;
+}
+
+.description {
+	margin: 5 0 5 0;
+	padding: 0 0 5 0;
 }
