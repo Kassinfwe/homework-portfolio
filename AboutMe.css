@@ -6,10 +6,10 @@ body {
 
 /*Why won't the border bottom appear? */
 header {
-	border-bottom: 10px;
-	border-bottom-color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	height: 200px;
+	margin-bottom: 5px;
+	margin-top: 0px;
 }
 
 .name {
@@ -20,38 +20,29 @@ header {
 	font-size: 40px;
 	font-weight: 200;
 	margin: auto 0;
-	margin-bottom: 0px;
+}
+
+h1 {
+	margin-bottom: 2px;
 	vertical-align: middle;
 	padding-bottom: 0px;
 }
 
-/* When I make the borwser as small width-wise 
+/* When I make the browser as small width-wise 
 as possible, these disappear! Thoughts?*/
 .page-links {
-	color: white;
-	margin: auto 0;
+	height: 150px;
 	text-align: center;
-	font-size: 30px;
-	font-weight: 150;
-	height: 200px;
 }
 
-#about {
-	margin-right: 10px;
-	border-right: 2px;
-	padding-right: 2px;
-}
-
-#portfolio {
-	padding-left: 2px;
-}
-
-/* Wouldn't work if this was just in .nav?? */
 a {
 	color: white;
 	vertical-align: middle;
 	font-size: 30px;
 	font-weight: 150;
+	margin-right: 2px;
+	border-right: 2px;
+	padding-right: 2px;
 }
 
 .about-container {
@@ -64,14 +55,14 @@ a {
 }
 
 #headshot {
-	margin-top: 30px;
+	margin-top: -1em;
 }
 
-/* If max-width is set to abot 700px, the container 
+/* If max-width is set to ~700px, the container 
 is no longer centered on the page, but left-aligned? */
 .about-information {
 	clear: left;
-	font-size: 20px;
+	font-size: 22px;
 	text-align: center;
 	margin: auto;
 	max-width: 600px;
